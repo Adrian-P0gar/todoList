@@ -1089,7 +1089,6 @@ UPDATE (Alba Iulia),DELETE,CREATE,DROP,INDEX,ALTER,CREATE VIEW,SHOW VIEW,TRIGGER
     <column id="344" parent="339" name="image">
       <Position>5</Position>
       <DataType>varchar(255)|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
     <column id="345" parent="339" name="done">
       <Position>6</Position>
