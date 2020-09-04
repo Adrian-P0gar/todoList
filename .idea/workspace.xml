@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="264f3385-6775-4903-88f4-b537849d885e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ProjectId" id="1gztLhjKRPIgz6uJyraYk9P50Dc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="264f3385-6775-4903-88f4-b537849d885e" name="Default Changelist" comment="" />
+      <created>1599129195015</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599129195015</updated>
+      <workItem from="1599129196076" duration="20792000" />
+      <workItem from="1599211662392" duration="2303000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="555" y="181" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599129751952">
+      <screen x="0" y="27" width="1920" height="988" />
+    </state>
+    <state x="555" y="181" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.988/1920.0.1280.1024@0.27.1920.988" timestamp="1599129751952" />
+    <state width="1291" height="257" key="GridCell.Tab.0.bottom" timestamp="1599129949718">
+      <screen x="0" y="27" width="1920" height="988" />
+    </state>
+    <state width="1291" height="257" key="GridCell.Tab.0.bottom/0.27.1920.988/1920.0.1280.1024@0.27.1920.988" timestamp="1599129949718" />
+    <state width="1291" height="257" key="GridCell.Tab.0.center" timestamp="1599129949718">
+      <screen x="0" y="27" width="1920" height="988" />
+    </state>
+    <state width="1291" height="257" key="GridCell.Tab.0.center/0.27.1920.988/1920.0.1280.1024@0.27.1920.988" timestamp="1599129949718" />
+    <state width="1291" height="257" key="GridCell.Tab.0.left" timestamp="1599129949718">
+      <screen x="0" y="27" width="1920" height="988" />
+    </state>
+    <state width="1291" height="257" key="GridCell.Tab.0.left/0.27.1920.988/1920.0.1280.1024@0.27.1920.988" timestamp="1599129949718" />
+    <state width="1291" height="257" key="GridCell.Tab.0.right" timestamp="1599129949718">
+      <screen x="0" y="27" width="1920" height="988" />
+    </state>
+    <state width="1291" height="257" key="GridCell.Tab.0.right/0.27.1920.988/1920.0.1280.1024@0.27.1920.988" timestamp="1599129949718" />
+    <state x="755" y="445" width="399" height="149" key="NewPhpFileDialog" timestamp="1599137955684">
+      <screen x="0" y="27" width="1920" height="988" />
+    </state>
+    <state x="755" y="445" width="399" height="149" key="NewPhpFileDialog/0.27.1920.988/1920.0.1280.1024@0.27.1920.988" timestamp="1599137955684" />
+    <state x="793" y="291" width="940" height="674" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1599130046233">
+      <screen x="0" y="27" width="1920" height="988" />
+    </state>
+    <state x="793" y="291" width="940" height="674" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.27.1920.988/1920.0.1280.1024@0.27.1920.988" timestamp="1599130046233" />
+    <state x="624" y="237" key="run.anything.popup" timestamp="1599146104430">
+      <screen x="0" y="27" width="1920" height="988" />
+    </state>
+    <state x="624" y="237" key="run.anything.popup/0.27.1920.988/1920.0.1280.1024@0.27.1920.988" timestamp="1599146104430" />
+  </component>
+</project>
