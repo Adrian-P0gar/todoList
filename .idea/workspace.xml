@@ -10,6 +10,13 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1gztLhjKRPIgz6uJyraYk9P50Dc" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -31,7 +38,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599129195015</updated>
       <workItem from="1599129196076" duration="20792000" />
-      <workItem from="1599211662392" duration="11916000" />
+      <workItem from="1599211662392" duration="14700000" />
     </task>
     <servers />
   </component>
@@ -67,10 +74,10 @@
       <screen x="0" y="27" width="1920" height="988" />
     </state>
     <state width="1291" height="257" key="GridCell.Tab.0.right/0.27.1920.988/1920.0.1280.1024@0.27.1920.988" timestamp="1599129949718" />
-    <state x="755" y="445" width="399" height="149" key="NewPhpFileDialog" timestamp="1599137955684">
+    <state x="755" y="445" width="399" height="149" key="NewPhpFileDialog" timestamp="1599299118137">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
-    <state x="755" y="445" width="399" height="149" key="NewPhpFileDialog/0.27.1920.988/1920.0.1280.1024@0.27.1920.988" timestamp="1599137955684" />
+    <state x="755" y="445" width="399" height="149" key="NewPhpFileDialog/0.27.1920.988/1920.0.1280.1024@0.27.1920.988" timestamp="1599299118137" />
     <state x="793" y="291" width="940" height="674" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1599225214150">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
