@@ -26,15 +26,16 @@ function getDataCallBack(response) {
         <td>${response[i].description}</td>
         <td>${response[i].duedate}</td>
         <td>${response[i].image}</td>
-        <td> <input type="checkbox" name="checked" ${isCehecked}> </td>        
+        <td> <input type="checkbox" class="checkBox" name="checked" ${isCehecked} data-id="${response[i].id}"> </td>        
         <td> <a class="btn btn-secondary"  href="update.php/${response[i].id}">Update</a> </td>
-        <td><button class="button_delete, btn btn-secondary" data-id="${response[i].id}"  > Delete </button>    </td></tr>
+        <td><button class="button_delete" data-id="${response[i].id}"  > Delete </button>    </td></tr>
         `
         }
 
     }
     document.querySelector(".tbody").innerHTML = output;
     hooks()
+    updateCheckBox()
 }
 
 function fetchData() {
@@ -45,7 +46,8 @@ function fetchData() {
 }
 
 function deleteDataCallBack(resp){
-    if(resp.Response=== true){
+
+    if(resp.Response === true){
         fetchData();
     }
 
@@ -59,10 +61,26 @@ function deleteData(id){
     doRequest(data,deleteDataCallBack);
 }
 
+function checkDone(id){
+    const data = {
+        type: "CheckDone",
+        id:id
+    }
+    doRequest(data, fetchData)
+}
+
+
 function hooks(){
     $(".button_delete").on("click",ev => {
         deleteData(ev.currentTarget.dataset.id)
     } )
 
 }
+
+function updateCheckBox(){
+    $(".checkBox").on("click", ev => {
+       checkDone(ev.currentTarget.dataset.id)
+    })
+}
+
 fetchData();

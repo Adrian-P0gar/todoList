@@ -14,6 +14,8 @@ class Request
            return $this->get_data();
         } else if ($_POST["type"] === "DeleteData"){
             return $this->delete_data($_POST['id']);
+        } else if ($_POST["type"] === "CheckDone"){
+            return $this->checkDone($_POST['id']);
         }
     }
 
@@ -33,7 +35,7 @@ class Request
         require 'dbConnection.php';
 
         $query = 'UPDATE tasks SET deleted = "0"
-            WHERE id='.$id  ;
+            WHERE id='.$id;
         $sql = mysqli_query($conn, $query);
 
         $result = [
@@ -41,6 +43,19 @@ class Request
             ];
 
         return json_encode($result);
+    }
+
+    function checkDone($id){
+        require 'dbConnection.php';
+        $query = 'UPDATE tasks SET done = IF(done = 0, 1, 0) WHERE id ='.$id  ;
+        $sql = mysqli_query($conn, $query);
+
+        $result = [
+            "Response"=>$sql
+        ];
+
+        return json_encode($result);
+
     }
 
 }
