@@ -25,9 +25,6 @@ require 'dbConnection.php';
             <th scope="col">Update</th>
             <th scope="col">Delete</th>
         </tr>
-
-
-
         </thead>
         <tbody class="tbody">
 <?php
@@ -53,7 +50,7 @@ require 'dbConnection.php';
 
 ?>
         </tbody></table>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="main.js"></script>
 </body>
 

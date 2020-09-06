@@ -9,7 +9,7 @@
             <a  class="nav-link" href="add.php">Add new ToDO</a>
         </li>
         <li class="nav-item active" >
-            <a  class="nav-link" href="index.php">Home</a>
+            <a  class="nav-link" href="/todolist/index.php">Home</a>
         </li>
 
     </ul>
